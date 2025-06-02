@@ -8,6 +8,7 @@ I have developed an asthma risk predictor system for both general users and clin
 
 1. **Dual User Interface**
 2. **Model Driven Risk Prediction**
+   
    - **XGBoost** Model for general **Symptom based assessment**.
    - **CatBoost** Model for clinical evaluation using metrics like **FEV1/FVC Ratio**.
 
