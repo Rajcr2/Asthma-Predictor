@@ -19,7 +19,7 @@ user_type = st.sidebar.radio("Select User Type:", ["General User", "Clinical Use
 
 # -------------------- GENERAL USER PAGE --------------------
 if user_type == "General User":
-    st.header("General User Assessment")
+    st.header("General Assessment")
     st.markdown("Provide your basic health details below:")
 
     age = st.slider("Age", 0, 100, 25)
