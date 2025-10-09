@@ -79,6 +79,21 @@ Other Utility Libraries : **numpy**.
 9.   Enter basic health details as an input from user and click on **'Predict Asthma Risk'** button if you are clinical user then click on **'Clinical Asthma Risk Prediction'**.
 10.  After that wait for results within seconds you will see whether you are **at risk of asthma or not** along with **'Probability'**.
 
+### Model Evaluation
+
+The CatBoost model achieved the following metrics on the test set:
+
+- **ROC-AUC Score:** 0.9762  
+- **Precision (Asthma-Positive):** 1.00  
+- **Recall (Asthma-Positive):** 0.96  
+- **F1-Score (Asthma-Positive):** 0.98  
+
+CatBoost was chosen for its strong handling of **class imbalance** through built-in weighting, eliminating the need for synthetic oversampling.
+
+
+<img width="1168" height="512" alt="image" src="https://github.com/user-attachments/assets/d857acea-feaf-490d-9170-ab01a9efaae3" />
+
+
 ### Output
 
 #### General Assesment :
